@@ -10,8 +10,8 @@ def main():
     name = input("Type your name! ")
     age = int(input("How old are you? "))
     copy = int(input("How many copies do you want? "))
-    print((name + ", you will reach 100 at " + years(age) + ".\n") * copy)
-    years(name, copy, age)
+    print((name + ", you will reach 100 at " + str(years(age)) + ".\n") * copy)
+    years(age)
 
 
 if __name__ == '__main__':
